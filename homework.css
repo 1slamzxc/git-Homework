@@ -1,3 +1,15 @@
 .try{
-    background-color: aqua;
+    background-color: rgb(222, 238, 238);
+}
+.title{
+    color: brown;
+}
+.hah{
+    color: brown;
+}
+.haha {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: larger;
+    line-height: 1.5;
+    font-style: italic;
 }
