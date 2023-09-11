@@ -1,0 +1,51 @@
+body {
+    margin-bottom: 50px;
+    margin: 50px;
+    box-shadow: 0 0 10px rgb(175, 40, 40);
+    padding: 20px;
+    padding-bottom: 50px;
+}
+.square {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(188, 214, 214);
+    border-style: groove;
+    border-color: black;
+    color: rgb(102, 31, 164);
+}
+.circle {
+   position: absolute;
+    left: 250px;
+    top: 70px;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(160, 135, 183);
+    border-style: groove;
+    border-color:black;
+    border-radius: 50px;
+    text-align: center;
+    color: brown;
+}
+.rectangle {
+    width: 150px;
+    height: 100px;
+    background-color: brown;
+    position: relative;
+    top: 20px;
+    border-style: groove;
+    border-color: black;
+    color: bisque;
+}
+.oval {
+    width: 130px;
+    height: 90px;
+    background-color: rgb(139, 90, 26);
+    position: absolute;
+    left: 250px;
+    top: 189px;
+    border-radius: 50px;
+    text-align: center;
+    border-style: groove;
+    border-color:   black;
+    color: rgb(149, 206, 206);
+}
