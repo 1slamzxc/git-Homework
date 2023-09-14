@@ -1,0 +1,104 @@
+body {
+    margin-top: 0px;
+    position: relative;
+    border: 1px;
+    background-color: rgb(249, 250, 251);
+}
+.text {
+    font-size: 18px;
+    position: relative;
+    left: 15px;
+    top: 25px;
+    
+}
+.disc {
+    position: absolute;
+    left: 4.5rem;
+    top: 100px;
+} 
+h1 {
+    font-size: 50px;
+}
+span {
+    font-size: 22px;
+}
+a {
+    font-size: 22px;
+}
+.Email {
+    font-size: 80px;
+    position: relative;
+    bottom: 10px;
+    color: rgb(177, 177, 201);
+    line-height: 12px;
+    left: 4.5rem;
+    top: 270px;
+}
+input {
+    width: 450px;
+    border: outset;
+    border-radius: 8px;
+    line-height: 50px;
+    display: flex;
+}
+.label {
+    position: relative;
+    bottom: 1px;
+    color: rgb(173, 173, 209);
+    font-size: 11px;
+}
+.second_label {
+    position: relative;
+    bottom: 1px;
+    color: rgb(173, 173, 209);
+    font-size: 11px;
+}
+
+button {
+    border: 0;
+    border-radius: 50px;
+    background: #13377f;
+    color: #fff;
+    font-size: 16px;
+    width: 350px;
+    height: 40px;
+    position: absolute;
+    bottom: -220px;
+    left: 74px;
+    cursor: pointer;
+}
+h5 {
+    position: relative;
+    font-size:13px;
+    top: 330px;
+    left: 205px;
+    color: rgb(173, 173, 209);
+    width: 100px;
+}
+
+.facebook {
+    position: relative;
+    width: 53px;
+    top: 317px;
+    left: 168.5px;
+}
+.apple {
+    position: relative;
+    width: 51px;
+    top: 313px;
+    left: 168px;
+}
+.google {
+    position: relative;
+    width: 44px;
+    top: 311px;
+    left: 168px;
+}
+.conteiner {
+    position: absolute;
+    top: 10px;
+    right: 40px;
+    width: 600px;
+    height: 500px;
+    border-radius: 12px;
+}
