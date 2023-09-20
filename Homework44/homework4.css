@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    width: 100%;
+    height: 140vh;
+    background: linear-gradient(135deg, #091833,#75b93d);
+    padding: 10px;
+}
+.container_inside {
+    width: 150vh;
+    height: 110vh;
+    background: #fff;
+    margin: 120px 230px 20px;
+    padding: 40px 30px 70px;
+    border-radius: 12px;
+}
+.container_inside h2 {
+    display: flex;
+    color: #002765;
+    align-items: flex-start;
+    font-size: 60px;
+    margin-left: 30px;
+}
+.container_inside img {
+    width: 80px;
+    height: 80px;
+    margin-left: 30px;
+}
+.row {
+    margin-top: 50px;
+    margin-left: 30px;
+    background: #edeef0;
+    border-radius: 30px;
+    width: 74.5vh;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.input {
+    border: none;
+    outline: none;
+    flex: 1;
+    font-size: 25px;
+    background: transparent;
+}
+button {
+    border: none;
+    outline: none;
+    padding: 8px 30px;
+    background: #ff5945;
+    color: #fff;
+    border-radius: 0px 40px 40px 0px;
+    font-size: 30px;
+    cursor: pointer;
+}
+.motivation {
+    position: absolute;
+    left: 113vh;
+    top: 420px;
+}
+.motivation img{
+    width: 450px;
+    height: 450px;
+}
+.motivation>img:hover {
+    transform: scale(1.1);
+}
+.Doing {
+    margin-top: 70px;
+    margin-left: 30px;
+}
+.DoList {
+    margin: 10px 10px 10px 10px;
+    width: 20px;
+    height: 20px;
+}
+li {
+    margin: 20px 10px ;
+    width: 500px;
+    font-size: 25px;
+}
+hr {
+    width: 500px;
+}
+.try { 
+    margin-left: 6px;
+    width: 20px;
+    height: 20px;
+}
