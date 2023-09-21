@@ -1,0 +1,35 @@
+@media screen and (max-width: 1200px) {
+    .square {
+        
+        border-radius:12px;
+        width: 45vh;
+        height: 25vh;
+        
+    }
+}
+
+@media screen and (max-width: 883px) {
+    .square {
+        width: 65vh;
+        height: 25vh;
+        border-radius: 50%;
+        
+    }
+}
+@media screen and (max-width: 540px) {
+    .square {
+        
+              width: 40vh;
+              height: 40vh;
+              border-radius: 50%;  
+    }
+}
+@media screen and (max-width: 320px) {
+    .square {
+        
+              width: 40vh;
+              height: 40vh;
+              border-radius: 12px;  
+    }
+}
+
