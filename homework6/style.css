@@ -1,0 +1,34 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100%;
+    height: 150vh;
+    background: linear-gradient(45deg, #fddb92, #d1fdff);
+    display: flex;
+    justify-content: space-around;
+    
+}
+div {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+.green {
+    background: linear-gradient(145deg,#31bba7,rgba(70, 242, 67, 0.607));
+    border: solid 2px;
+    border-color: black;
+}
+.red {
+    background: linear-gradient(145deg,rgb(206, 38, 38),rgb(105, 24, 24));
+    color: black;
+    border: solid 2px;
+}
+.purple {
+    background: linear-gradient(145deg,#d6449c,rgba(45, 43, 83, 0.607));
+    border: solid 2px;
+    color: black;
+}
