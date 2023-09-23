@@ -1,0 +1,32 @@
+@media screen and (max-width:1600px){ 
+    .red {
+        position: static;
+    }
+}
+@media screen and (max-width:1400px) {
+    .red {
+        position: sticky; 
+        top: 40px;
+        width: 300px;
+        right: 400px;
+    }
+}
+@media screen and (max-width:1200px) {
+    .red {
+        position: fixed;
+        top: center; 
+    }
+}
+@media screen and (max-width:1000px) {
+    .red {
+        position: absolute; 
+        left: 50px;
+    }
+}
+@media screen and (max-width:800px) {
+    .red {
+        position: static;
+        width: 200px;
+    }
+}
+
