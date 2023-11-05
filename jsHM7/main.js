@@ -25,9 +25,11 @@ console.log(car.information2());
 const krug = {
     radius: 25,
     information3: function() {
-        return 
+        return 3.14 * this.radius ** 2
     }
 }
+
+console.log(krug.information3());
 
 //! 4 
 
