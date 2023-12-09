@@ -57,11 +57,11 @@ const App = () => {
         <ChildComponent2/>
       </ParentComponent>
       <div>
-        <h1>Main Content</h1>
+        <h1>2 задание ПОртал</h1>
         <div id="portal-root"></div>
         <PortalComponent />
       </div>
-      
+
     </div>
 
   );
