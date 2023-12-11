@@ -71,3 +71,22 @@ const book = {
 }
 
 console.log(book.author);
+
+//! try
+
+const array = [
+    {name: "Islam",
+    age: 24},
+    {name: "",
+        age: 1},
+    {
+        name: "Nurisa",
+        age: 20
+    }
+]
+
+const newArray = array.map((element, i) => {
+    return i === 1 ? element.name + "Love" : element.name
+})
+
+console.log(newArray);
