@@ -1,0 +1,84 @@
+body {
+    margin-top: 0px;
+    position: relative;
+    border: 1px;
+    background-color: rgb(249, 250, 251); }
+h1  {
+    font-size: 60px;
+}
+    div {
+    position: relative;
+}
+.disc {
+    position: absolute;
+    left: 4.5rem;
+    top: 100px;
+} 
+div {
+    position: relative;
+}
+.Email {
+    font-size: 40px;
+    position: relative;
+    bottom: 8px;
+    color: rgb(177, 177, 201);
+    line-height: 20px;
+    left: 4.5rem;
+    top: 270px;
+}
+input {
+    border: initial;
+    font-size: 18px;
+}
+.label {
+    position: relative;
+    bottom: 1px;
+    color: rgb(173, 173, 209);
+    font-size: 11px;
+}
+.second_label{
+    position: relative;
+    bottom: 1px;
+    color: rgb(173, 173, 209);
+    font-size: 11px;
+}
+.third_label{
+    position: relative;
+    bottom: 1px;
+    color: rgb(173, 173, 209);
+    font-size: 11px; 
+}
+.fourth_label{
+     position: relative;
+     bottom: 1px;
+     color: rgb(173, 173, 209);
+     font-size: 11px;
+}
+button {
+    position: relative;
+    border: 0;
+    background-color: #13377f;
+    border-radius: 50px;
+    color: #fff;
+    padding: 10px 100px;
+    font-size: 30px;
+    width: 300px;
+    top: 55px;
+    cursor: pointer;
+}
+.back {
+    width: 700px;
+    height: 200px;
+    position: absolute;
+    right: 140px;
+    bottom: 410px;
+
+}
+
+.inside {
+    width: 450px;
+    height: 400px;
+    position: absolute;
+    right: 255px;
+    bottom: 25px;
+}

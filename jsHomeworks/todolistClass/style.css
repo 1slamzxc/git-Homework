@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#todoApp {
+    max-width: 400px;
+    margin: 50px auto;
+}
+  
+#taskInput {
+    width: 70%;
+    padding: 5px;
+}
+  
+button {
+    margin-top: 5px;
+    padding: 5px;
+}
+  
+li {
+    list-style-type: none;
+    margin: 5px 0;
+    padding: 5px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+}
+  
+li:hover {
+    background-color: #f0f0f0;
+}
+
+#taskList {
+    margin-right: 48px;
+}

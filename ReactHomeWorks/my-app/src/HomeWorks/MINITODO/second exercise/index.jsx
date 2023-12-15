@@ -4,9 +4,9 @@ const Array = ({todos}) => {
   return (
     <div>
       {todos.map((todo) => (
-        <div>
+        <div key={todo.id}>
             {todo.title}
-            <input type="checkbox" defaultChecked={todo.isCompleted} />
+            <input type="checkbox" defaultChecked={todo.isCompleted}/>
         </div>
       ))}
     </div>
