@@ -2,6 +2,9 @@ import React from 'react';
 import Input from './HomeWorks/MINITODO/first exercise/input';
 import Button from './HomeWorks/MINITODO/first exercise/button';
 import Array from './HomeWorks/MINITODO/second exercise';
+import State from './HomeWorks/hook/useStateEffect/State';
+import ItemList from './HomeWorks/hook/useCallbackMemo';
+
 
 
 const App = () => {
@@ -23,15 +26,18 @@ const App = () => {
   const todos = [
     {
         title: 'Go to School!',
-        isCompleted: false
+        isCompleted: false,
+        id: 1
     },
     {
         title: 'Buy milk!',
-        isCompleted: true
+        isCompleted: true,
+        id: 2
     },
     {
         title: 'Drive a Car!',
-        isCompleted: false
+        isCompleted: false,
+        id: 3
     },
 ]
   
@@ -39,13 +45,23 @@ const App = () => {
       
     <div className='app'>
 
-      <h1>Home Work 4 react</h1>
+      <h1>Home Work 4 react MINITODO</h1>
 
       <Input style={inputStyle} placeholder="Введите текст..." title="ВВедите текст" width="300px" height="50px"/>
       
       <Button style={btnStyle}/>
 
       <Array todos={todos}/>
+
+      <hr></hr>
+      <h1>Hooki Home work 5: useState, useEffect</h1>
+
+      <State />
+
+      <h1>useCallback, useMemo</h1>
+
+      <ItemList />
+      
 
     </div>
 
