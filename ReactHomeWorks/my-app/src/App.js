@@ -4,6 +4,16 @@ import Button from './HomeWorks/MINITODO/first exercise/button';
 import Array from './HomeWorks/MINITODO/second exercise';
 import State from './HomeWorks/hook/useStateEffect/State';
 import ItemList from './HomeWorks/hook/useCallbackMemo';
+import TextInput from './HomeWorks/hook/useRefContext/textinput';
+import Header from './HomeWorks/hook/useRefContext/header';
+import Content from './HomeWorks/hook/useRefContext/content';
+import ChangeColor from './HomeWorks/hook/useRefContext/parent';
+import { BrowserRouter, Outlet, Route, Routes } from 'react-router-dom';
+import { Link } from 'react-router-dom';
+import Home from './HomeWorks/Task/Home';
+import About from './HomeWorks/Task/About';
+import Contact from './HomeWorks/Task/Contact';
+
 
 
 
@@ -61,7 +71,47 @@ const App = () => {
       <h1>useCallback, useMemo</h1>
 
       <ItemList />
-      
+
+      <h1>useRef, useContext</h1>
+
+      <TextInput />
+
+      <ChangeColor>
+        <Header />
+        <Content />
+      </ChangeColor>
+
+      <h1>Task</h1>
+
+      <BrowserRouter>
+        <Routes>
+          <Route
+            element={
+              <div>
+                <ul>
+                  <li>
+                    <Link to="/">на главную
+                    </Link>
+                  </li>
+                  <li>
+                    <Link to="/About">О нас
+                    </Link>
+                  </li>
+                  <li>
+                    <Link to="/Contacts">Контакты
+                    </Link>
+                  </li>
+                </ul>
+                <Outlet />
+              </div>
+            }
+          >
+            <Route path='/' element={<Home />}/>
+            <Route path='/About' element={<About />}/>
+            <Route path='/Contacts' element={<Contact />}/>
+          </Route>
+        </Routes>
+      </BrowserRouter>
 
     </div>
 
